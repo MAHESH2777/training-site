@@ -1,0 +1,100 @@
+.bgtag{
+    background-image: url(../img/size.jpg);
+    background-attachment: fixed;
+    background-size: cover
+}
+
+
+.nav{
+    background-color: #3f0140;
+    color: white;
+}
+.iconclr{
+    color: white !important;
+}
+
+.dpdown{
+    background-color: #0000008c;
+    color: white;
+
+}
+.dpdown:hover{color: white}
+.bdy{
+    color: white;
+    padding-top: 50px
+}
+.bclr{
+
+    height: 100vh;
+}
+.home{
+    margin-top: 10px;
+}
+.table{color: white}
+tbody{
+    background-color: #1911186e
+}
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+
+    border-top: none;
+  }
+  .today{
+      background-color: #0000008c;
+  }
+  .archive{
+      background-color: #0000008c;
+  }
+  .today:hover{
+    background-color: white;
+}
+.archive:hover{
+    background-color:white;
+}
+.archive:active{
+    background-color:rgb(150, 17, 17);
+}
+.txtbdy{
+    border: 1px solid darkgrey;
+    box-shadow: 1px 3px 20px 1px rgb(173, 171, 171);
+}
+#vido{
+    border:2px solid #3f0140;
+    box-shadow: 1px 3px 20px 1px rgb(173, 171, 171);
+
+}
+.dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #cac3c3;
+}
