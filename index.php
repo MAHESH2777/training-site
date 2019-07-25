@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Material Design Bootstrap</title>
+  <title>Online Training Classes</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <!-- Bootstrap core CSS -->
@@ -47,7 +47,7 @@
 
 <button class="btn dpdown dropdown-toggle mr-4" type="button" data-toggle="dropdown"
   aria-haspopup="true" aria-expanded="false">Courses</button>
-  <br>
+
   <div class="container">
     <div class="row">
     <div class="col-6 text-right">
@@ -63,6 +63,12 @@
   <a class="dropdown-item" href="#">Politics</a>
   <a class="dropdown-item" href="#">C#</a>
 </div>
+
+<div class="container">
+<div class="row">
+<div class="col-2"></div>
+<div class="col-8">
+
 <div id="London" class="tabcontent" style="display:block">
 <table class="table">
   <thead class="black white-text">
@@ -71,7 +77,7 @@
       <th scope="col">S.No</th>
       <th scope="col">Date</th>
       <th scope="col">Name</th>
-      <th scope="col">Watch Now</th>
+      <th scope="col"> Watch Now</th>
     </tr>
   </thead>
   <tbody>
@@ -79,22 +85,24 @@
       <th scope="row">1</th>
       <td>27/07/2019</td>
       <td>Java</td>
-      <td>Watch Now</td>
+      <td><button style="background-color:#3f0140;color:white">Watch Now</button></td>
     </tr>
     <tr>
       <th scope="row">2</th>
       <td>27/07/2019</td>
       <td>.Net</td>
-      <td>Watch Now</td>
+      <td><button style="background-color:#3f0140;color:white">Watch Now</button></td>
     </tr>
     <tr>
       <th scope="row">3</th>
       <td>27/07/2019</td>
       <td>C#</td>
-      <td>watch Now</td>
+      <td><button style="background-color:#3f0140;color:white">Watch Now</button></td>
     </tr>
   </tbody>
 </table>
+
+
 </div>
 <div id="Paris" class="tabcontent">
 <table class="table">
@@ -112,18 +120,25 @@
       <th scope="row">1</th>
       <td>01/08/2019</td>
       <td>java</td>
-      <td>Watch Now</td>
+      <td><button style="background-color:#3f0140;color:white">Watch Now</button></td>
     </tr>
     <tr>
       <th scope="row">2</th>
       <td>08/07/2019</td>
       <td>.Net</td>
-      <td>Watch Now</td>
+      <td><button style="background-color:#3f0140;color:white">Watch Now</button></td>
     </tr>
    
   </tbody>
 </table>
 </div>
+</div>
+
+</div>
+<div class="col-2"></div>
+</div>
+</div>
+
 </div>
 </body>
 

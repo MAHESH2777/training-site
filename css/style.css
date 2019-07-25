@@ -1,5 +1,5 @@
 .bgtag{
-    background-image: url(../img/size.jpg);
+    background-image: url(../img/12.jpg);
     background-attachment: fixed;
     background-size: cover
 }
@@ -21,16 +21,17 @@
 .dpdown:hover{color: white}
 .bdy{
     color: white;
-    padding-top: 50px
+    padding-top: 25px
 }
 .bclr{
-
+    background-color: #00000033;
     height: 100vh;
 }
 .home{
     margin-top: 10px;
 }
-.table{color: white}
+.table{color: white;
+    border: 1px solid}
 tbody{
     background-color: #1911186e
 }
@@ -81,12 +82,14 @@ tbody{
 .archive:hover{
     background-color:white;
 }
-.archive:active{
-    background-color:rgb(150, 17, 17);
-}
+
+
 .txtbdy{
-    border: 1px solid darkgrey;
+  
     box-shadow: 1px 3px 20px 1px rgb(173, 171, 171);
+    background-color: #383838ba;
+    color: white;
+    text-align: justify !important;
 }
 #vido{
     border:2px solid #3f0140;
@@ -98,3 +101,27 @@ tbody{
     text-decoration: none;
     background-color: #cac3c3;
 }
+.tabcontent {
+    display: none;
+     padding: 0px !important; 
+    border-top: none;
+}
+.textbg{
+    
+        background-color: #3f0140;
+        color: white;
+        display: -webkit-inline-box;
+    
+}
+.downbtn{
+    background-color: #3f0140;
+    color: white;
+    padding: 8px;
+}
+.fontsz{
+    font-size: 12px;
+}
+.bgcolor{
+    color: white;
+}
+.dinline{display:flex}
