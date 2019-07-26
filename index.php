@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,10 +18,9 @@
 <div class="bclr">
 <div class="container-fluid nav">
   <div class="col-4 text-center home">
-  <img src="img/hom.png"> 
+  <a class="nav-link" href="index.php">  <img src="img/hom.png"></a>
    <!-- <span class="fas fa-home iconclr"></span> -->
   </div>
-
    <div class="col-4 text-center"></div>
      
 
@@ -63,11 +61,11 @@
   <a class="dropdown-item" href="#">Politics</a>
   <a class="dropdown-item" href="#">C#</a>
 </div>
-
+</div>
 <div class="container">
 <div class="row">
-<div class="col-2"></div>
-<div class="col-8">
+<div class="col-md-2"></div>
+<div class="col-md-8 txtc" style="overflow-x:auto">
 
 <div id="London" class="tabcontent" style="display:block">
 <table class="table">
@@ -85,19 +83,21 @@
       <th scope="row">1</th>
       <td>27/07/2019</td>
       <td>Java</td>
-      <td><button style="background-color:#3f0140;color:white">Watch Now</button></td>
+      <td>
+        <a href="watch.php"><button class="but">Watch Now</button>
+        </a></td>
     </tr>
     <tr>
       <th scope="row">2</th>
       <td>27/07/2019</td>
       <td>.Net</td>
-      <td><button style="background-color:#3f0140;color:white">Watch Now</button></td>
+      <td><button class="but">Watch Now</button></td>
     </tr>
     <tr>
       <th scope="row">3</th>
       <td>27/07/2019</td>
       <td>C#</td>
-      <td><button style="background-color:#3f0140;color:white">Watch Now</button></td>
+      <td><button class="but">Watch Now</button></td>
     </tr>
   </tbody>
 </table>
@@ -120,13 +120,13 @@
       <th scope="row">1</th>
       <td>01/08/2019</td>
       <td>java</td>
-      <td><button style="background-color:#3f0140;color:white">Watch Now</button></td>
+      <td><button class="but">Watch Now</button></td>
     </tr>
     <tr>
       <th scope="row">2</th>
       <td>08/07/2019</td>
       <td>.Net</td>
-      <td><button style="background-color:#3f0140;color:white">Watch Now</button></td>
+      <td><button class="but">Watch Now</button></td>
     </tr>
    
   </tbody>
@@ -134,12 +134,14 @@
 </div>
 </div>
 
-</div>
-<div class="col-2"></div>
+
+<div class="col-md-2"></div>
 </div>
 </div>
 
+
 </div>
+
 </body>
 
   <!-- Start your project here-->
