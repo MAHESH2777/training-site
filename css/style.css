@@ -108,11 +108,16 @@ tbody{
     text-transform: capitalize;
 }
 
-.table td {
-    padding-top: 13px !important;
-    padding-bottom: 1px !important;
+
+table.table td, table.table th {
+  padding-top: 6px !important; 
+   padding-bottom: 6px !important; 
 }
 
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 1px solid #dee2e6;
+}
 .txtbdy{
   
     box-shadow: 1px 3px 20px 1px rgb(173, 171, 171);
