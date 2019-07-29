@@ -32,8 +32,8 @@
         </a>
         <div class="dropdown-menu dropdown-menu-right dropdown-default"
           aria-labelledby="navbarDropdownMenuLink-333">
-          <a class="dropdown-item" href="#">Login </a>
-          <a class="dropdown-item" href="#">Sign up</a>
+          <a class="dropdown-item" href="login.php">Login </a>
+          <a class="dropdown-item" href="register.php">Sign up</a>
         
         </div>
 </div>

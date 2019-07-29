@@ -121,7 +121,7 @@ table.table td, table.table th {
 .txtbdy{
   
     box-shadow: 1px 3px 20px 1px rgb(173, 171, 171);
-  
+  background-color: white;
     color: black;
     text-align: justify !important;
 }
@@ -156,7 +156,7 @@ table.table td, table.table th {
     font-size: 12px;
 }
 .bgcolor{
-    color: rgb(10, 8, 8);
+    color: white;
 }
 .dinline{display:flex}
 .txtc{
@@ -194,7 +194,7 @@ h1{
 }
 
 .chat-container{
-  background:rgba(208, 211, 216, 0.2);
+  background:rgba(0, 0, 0, 0.47);
   display:flex;
   flex-direction:column;
   padding:10px;
@@ -210,7 +210,7 @@ h1{
   position:relative;
   border-radius:100px;
   margin-bottom:30px;
-  z-index:-1;
+
 }
 
 .left{
@@ -249,4 +249,18 @@ h1{
 
   padding:10px;
   width: 100%;
+}
+.login{
+color: white;
+border: 1px solid white;
+background-color: rgba(0, 0, 0, 0.671)
+}
+.log{
+  color:white;
+  background-color: #3f0140;
+  text-align: center;
+
+}
+.bodyclr{
+  background-color: #00000059;
 }

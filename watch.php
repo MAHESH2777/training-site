@@ -14,10 +14,12 @@
   <!-- Your custom styles (optional) -->
   <link href="css/style.css" rel="stylesheet">
 </head>
-<body>
+<body  class="bgtag">
+  <div class="bodyclr">
   <div class="container-fluid nav">
     <div class="col-4 text-center home">
-      <a class="nav-link" href="index.php"> <img src="img/hom.png"></a>
+      <a class="nav-link" href="index.php">
+        <img src="img/hom.png"></a>
       <!-- <span class="fas fa-home iconclr"></span> -->
     </div>
     <div class="col-4 text-center"></div>
@@ -27,16 +29,16 @@
         <!-- <i class="fas fa-user"></i> -->
       </a>
       <div class="dropdown-menu dropdown-menu-right dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-        <a class="dropdown-item" href="#">Login </a>
-        <a class="dropdown-item" href="#">Sign up</a>
-      </div>
+      <a class="dropdown-item" href="login.php">Login </a>
+          <a class="dropdown-item" href="register.php">Sign up</a>
     </div>
+  </div>
   </div>
   <!-- 21:9 aspect ratio -->
   <br>
   <div class="container">
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-md-8  pt-4">
         <div class="container text-center bgcolor">
           <div class="row text-center">
             <div class="col-12 ">
@@ -80,7 +82,7 @@
       <div class="col-md-4">
         <div class="container chat">
           <div class="phone-top"></div>
-          <h2 class="text-center" style="color:black">Chat box</h2>
+          <h2 class="text-center" style="color:white">Chat box</h2>
           <ul class="chat-container">
             <li class="message right">
               <img class="profile" src="https://randomuser.me/api/portraits/men/6.jpg" alt="user photo">
@@ -113,6 +115,7 @@
     </div>
   </div>
   <!-- Full Height Modal Right -->
+              </div>
 </body>
 <!-- JQuery -->
 <script>
